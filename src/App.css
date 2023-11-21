@@ -1,0 +1,294 @@
+/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700&display=swap'); */
+
+:root{
+  --primary: #00A97F;
+  --light:rgba(133,198,218,255);
+  --dark:rgba(13,13,10,255);
+  --darker:rgba(234,157,90,255);
+  --lighter:#cbd6cf;
+  --lighter1:#c3dacc86;
+  --lighter2:#e4f0e9da;
+  --darken: #cca27e;
+  --color: orangered;
+  --search: #FF6000;
+  --primary1: #2b3d4c;
+  --primary2: #354d61;
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'League Spartan', sans-serif;
+}
+
+h1{
+font-weight: 600;
+font-size: 40px;
+color: var(--search);
+}
+
+h2{
+font-weight: 400;
+font-size: 24px;
+}
+
+
+a {
+font-weight: 500;
+text-decoration: none !important;
+transition: 0.5s ease;
+}
+a:hover {
+color: #535bf2;
+}
+
+
+p{
+text-decoration: none;
+font-size: 14px;
+font-weight: 400;
+margin-bottom: 0 !important;
+color: var(--primary1);
+
+}
+
+button{
+  padding: 12px 10px;
+  font-size: 14px;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid var(--lighter);
+}
+
+input:focus{
+  outline: none !important;
+}
+.gap-30{
+  padding: 0 10px;
+}
+
+
+/* start header here  */
+
+.header-top-strip {
+
+}
+img.img-fluid.logo {
+  width: 110px;
+}
+.logo {
+  max-width: 100%;
+  height: 40px;
+  height: 6em;
+  padding: 1em;
+}
+.nav-links a{
+  text-transform: uppercase;
+  color: var(--primary1);
+  font-size: 16px;
+}
+.header-upper {
+  background: var(--lighter);
+}
+.nav-links-nav a {
+  color: var(--search);
+}
+.active {
+  text-decoration: underline !important;
+  color: var(--primary) !important;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.inactive {
+  color: var(--primary1);
+  font-weight: 400;
+}
+/* end header here  */
+/* start footer  */
+
+footer.footer.p-5{
+  background: var(--lighter2);
+}
+footer.footer.p-5 a{
+ color: #000;
+}
+
+/* end footer  */
+
+
+/* start home  */
+
+.banner-details {
+  background: url(/src/assets/images/back.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+
+}
+.hero-details img {
+  width: 100%;
+  height: 80px !important;
+}
+h1 {
+  color: var(--search) !important;
+  margin: 10px;
+  font-size: 40px !important; 
+}
+h2 {
+  color: var(--primary1) !important;
+  margin: 10px;
+  font-size: 32px !important; 
+}
+.button-link {
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 12px 24px;
+  background-color: var(--primary);
+  color: white;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+}
+
+.button-link:hover{
+  background-color: transparent;
+  border: 1px solid var(--primary1);
+  color: var(--primary1);
+}
+h3.show-all {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 900;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background: var(--darker);
+  width: auto;
+  border-radius: 7px;
+  transition: 0.4s;
+
+}
+h3.show-all a{
+  color: white;
+  transition: 0.4s;
+
+}
+h3.show-all:hover a,
+h3.show-all:hover
+{
+
+  transition: 0.4s;
+  background:var(--primary) ;
+}
+
+.repair-services{
+  background: url(/src/assets/images/banner/b2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  justify-content: center;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.repair-details button{
+  color: white;
+  background-color: var(--darker);
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+}
+
+.repair-details button:hover{
+  border: 1px solid var(--darken);
+  background-color: transparent;
+}
+.new-arrivals .card{
+  border-radius: 20px;
+  transition: 0.5s ease;
+  max-width: 250px;
+  padding: 12px 10px;
+}
+
+.new-arrivals .card img{
+  border-radius: 20px;
+}
+
+.new-arrivals .card:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.08);
+}
+.hot-deals .card{
+  padding: 12px 10px;
+}
+
+.hot-deals .card img{
+  min-height: 180px;
+  justify-content: center;
+}
+
+.hot-deals button{
+  color: white;
+  background-color: var(--darker);
+  transition: 0.5s;
+  border:  1px solid transparent;
+}
+
+.hot-deals button:hover{
+  background: transparent;
+  color: var(--search);
+  border: 1px solid var(--darker);
+}
+
+.blogs .card img{
+  width: 20rem;
+  padding: 20px;
+  border-radius: 15px;
+}
+.blogs button{
+  font-size: 16px;
+  transition: 0.5s;
+  border:  1px solid transparent;
+}
+
+.blogs button:hover{
+  background: transparent;
+  color: var(--search);
+  border: 1px solid var(--darker);
+}
+
+.news-letter{
+  background-color: var(--lighter1);
+}
+.button-repair {
+  border-radius: 7px;
+}
+/* end home  */
+
+
+/* start shop  */
+.shop{
+  background: url(/src/assets/images/banner/b1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  justify-content: center;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* border-radius: 10px; */
+}
+.shop .shop-details .title-green{
+  color: var(--primary);
+}
+.card-shop button {
+  background-color: #2b3d4c;
+  transition: 0.5s;
+  color: white;
+  border-radius: 7px;
+}
+.card-shop button:hover {
+  background-color: transparent;
+  color: black;
+}
+/* end shop  */
